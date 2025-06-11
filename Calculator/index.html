@@ -1,0 +1,43 @@
+<html>
+<head>
+<title>Calculator</title>
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+</head>
+<body>
+<div class="container">
+    <input type="text" class="display" id="result">
+    <div class="buttons">
+        <button class="operator" data-value="AC" onclick="clr()">AC</button>
+        <button class="operator" data-value="DEL" onclick="del()">DEL</button>
+        <button class="operator" data-value="%" onclick="dis('%')" >%</button>
+        <button class="operator" data-value="/" onclick="dis('/')">/</button>
+
+        <button data-value="7" onclick="dis('7')">7</button>
+        <button data-value="8" onclick="dis('8')">8</button>
+        <button data-value="9" onclick="dis('9')">9</button>
+        <button class="operator"data-value="*" onclick="dis('*')">*</button>
+
+        <button data-value="4" onclick="dis('4')">4</button>
+        <button data-value="5" onclick="dis('5')">5</button>
+        <button data-value="6" onclick="dis('6')">6</button>
+        <button class="operator" data-value="-" onclick="dis('-')">-</button>
+
+        <button data-value="1" onclick="dis('1')">1</button>
+        <button data-value="2" onclick="dis('2')">2</button>
+        <button data-value="3" onclick="dis('3')">3</button>
+        <button class="operator" data-value="+" onclick="dis('+')">+</button>
+
+        <button data-value="0" onclick="dis('0')">0</button>
+        <button data-value="√" onclick="sqr()">√</button>
+        <button data-value="." onclick="dis('.')">.</button>
+        <button class="operator" data-value="=" onclick="solve()">=</button>
+
+    </div>
+</div>
+</body>
+</html>
+
+
+
+
